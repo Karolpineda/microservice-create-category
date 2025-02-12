@@ -50,4 +50,4 @@ jobs:
             docker run -d --name create_category_container \
               --env-file .env \
               -p 8085:8085 \
-              karolpineda/microservice-create-category:latest
+              karolpineda/microservice-create-category:latest 
